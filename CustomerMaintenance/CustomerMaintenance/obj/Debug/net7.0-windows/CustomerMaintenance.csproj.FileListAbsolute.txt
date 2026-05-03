@@ -1,0 +1,8 @@
+E:\Documents\Augusta Tech\Assignments\Spring 2026\CIST2341 - C# Programming I\Unit 12\Homework 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\net7.0-windows\CustomerMaintenance.frmAddCustomer.resources
+E:\Documents\Augusta Tech\Assignments\Spring 2026\CIST2341 - C# Programming I\Unit 12\Homework 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\net7.0-windows\CustomerMaintenance.frmCustomer.resources
+E:\Documents\Augusta Tech\Assignments\Spring 2026\CIST2341 - C# Programming I\Unit 12\Homework 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\net7.0-windows\CustomerMaintenance.csproj.GenerateResource.cache
+E:\Documents\Augusta Tech\Assignments\Spring 2026\CIST2341 - C# Programming I\Unit 12\Homework 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\net7.0-windows\CustomerMaintenance.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\Augusta Tech\Assignments\Spring 2026\CIST2341 - C# Programming I\Unit 12\Homework 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\net7.0-windows\CustomerMaintenance.AssemblyInfoInputs.cache
+E:\Documents\Augusta Tech\Assignments\Spring 2026\CIST2341 - C# Programming I\Unit 12\Homework 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\net7.0-windows\CustomerMaintenance.AssemblyInfo.cs
+E:\Documents\Augusta Tech\Assignments\Spring 2026\CIST2341 - C# Programming I\Unit 12\Homework 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\net7.0-windows\CustomerMaintenance.csproj.CoreCompileInputs.cache
+E:\Documents\Augusta Tech\Assignments\Spring 2026\CIST2341 - C# Programming I\Unit 12\Homework 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\net7.0-windows\CustomerMaintenance.sourcelink.json

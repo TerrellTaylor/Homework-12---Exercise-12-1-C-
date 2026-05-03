@@ -28,81 +28,82 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lstCustomers = new System.Windows.Forms.ListBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnExit = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            lstCustomers = new ListBox();
+            label1 = new Label();
+            btnAdd = new Button();
+            btnDelete = new Button();
+            btnExit = new Button();
+            SuspendLayout();
             // 
             // lstCustomers
             // 
-            this.lstCustomers.FormattingEnabled = true;
-            this.lstCustomers.ItemHeight = 15;
-            this.lstCustomers.Location = new System.Drawing.Point(15, 28);
-            this.lstCustomers.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.lstCustomers.Name = "lstCustomers";
-            this.lstCustomers.Size = new System.Drawing.Size(341, 184);
-            this.lstCustomers.TabIndex = 0;
+            lstCustomers.FormattingEnabled = true;
+            lstCustomers.ItemHeight = 15;
+            lstCustomers.Location = new Point(15, 28);
+            lstCustomers.Margin = new Padding(2);
+            lstCustomers.Name = "lstCustomers";
+            lstCustomers.Size = new Size(341, 184);
+            lstCustomers.TabIndex = 0;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 11);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 15);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Customers:";
+            label1.AutoSize = true;
+            label1.Location = new Point(15, 11);
+            label1.Margin = new Padding(2, 0, 2, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(67, 15);
+            label1.TabIndex = 4;
+            label1.Text = "Customers:";
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(379, 28);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
-            this.btnAdd.TabIndex = 1;
-            this.btnAdd.Text = "&Add";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Location = new Point(379, 28);
+            btnAdd.Margin = new Padding(2);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(75, 23);
+            btnAdd.TabIndex = 1;
+            btnAdd.Text = "&Add";
+            btnAdd.UseVisualStyleBackColor = true;
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(379, 55);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
-            this.btnDelete.TabIndex = 2;
-            this.btnDelete.Text = "&Delete";
-            this.btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Location = new Point(379, 55);
+            btnDelete.Margin = new Padding(2);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(75, 23);
+            btnDelete.TabIndex = 2;
+            btnDelete.Text = "&Delete";
+            btnDelete.UseVisualStyleBackColor = true;
             // 
             // btnExit
             // 
-            this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(379, 82);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 23);
-            this.btnExit.TabIndex = 3;
-            this.btnExit.Text = "E&xit";
-            this.btnExit.UseVisualStyleBackColor = true;
+            btnExit.DialogResult = DialogResult.Cancel;
+            btnExit.Location = new Point(379, 82);
+            btnExit.Margin = new Padding(2);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(75, 23);
+            btnExit.TabIndex = 3;
+            btnExit.Text = "E&xit";
+            btnExit.UseVisualStyleBackColor = true;
             // 
             // frmCustomer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(484, 228);
-            this.Controls.Add(this.btnExit);
-            this.Controls.Add(this.btnDelete);
-            this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lstCustomers);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "frmCustomer";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Customer Maintenance";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            CancelButton = btnExit;
+            ClientSize = new Size(484, 228);
+            Controls.Add(btnExit);
+            Controls.Add(btnDelete);
+            Controls.Add(btnAdd);
+            Controls.Add(label1);
+            Controls.Add(lstCustomers);
+            Margin = new Padding(2);
+            Name = "frmCustomer";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Customer Maintenance";
+            Load += frmCustomer_Load;
+            ResumeLayout(false);
+            PerformLayout();
 
         }
 

@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CustomerMaintenance",
+    "\\CustomerMaintenance\\CustomerMaintenance"
   ],
+  "SelectedNode": "\\CustomerMaintenance\\CustomerMaintenance\\frmAddCustomer.cs",
   "PreviewInSolutionExplorer": false
 }
